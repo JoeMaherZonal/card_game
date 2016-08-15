@@ -1,6 +1,6 @@
 import static org.junit.Assert.*;
 import org.junit.*;
-import black_jack_management.*;
+import poker_management.*;
 
 public class PlayerTest {
 

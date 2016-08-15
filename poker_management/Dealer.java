@@ -1,4 +1,4 @@
-package black_jack_management;
+package poker_management;
 import java.util.*;
 
 public class Dealer {
@@ -16,14 +16,12 @@ public class Dealer {
   public void initDeck(){
 
     for(int i = 0; i < SuitType.values().length; i++){
-
       for(int n = 0; n < ValueType.values().length; n++){
-
         Card card = new Card(SuitType.values()[i], ValueType.values()[n]);
         this.deck.add(card);
-
       }
     }
+    
   }
 
   public void shuffleDeck(){

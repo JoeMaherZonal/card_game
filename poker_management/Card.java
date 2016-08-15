@@ -1,4 +1,4 @@
-package black_jack_management;
+package poker_management;
 
 public class Card {
 
